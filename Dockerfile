@@ -17,4 +17,3 @@ VOLUME ["/data"]
 WORKDIR /data/www
 
 ENTRYPOINT ["phpunit"]
-CMD ["--version"]
